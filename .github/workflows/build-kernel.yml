@@ -97,3 +97,11 @@ jobs:
       fail-fast: true
     uses: ./.github/workflows/build-smartisan-u3pro-lineageos18-a11.yml
     secrets: inherit
+
+  # Poco F1
+  build-xiaomi-pocof1-a16-419:
+    name: "Xiaomi PocoF1 (A16) 4.19"
+    strategy:
+      fail-fast: true
+    uses: ./.github/workflows/build-xiaomi-pocof1-a16-419.yml
+    secrets: inherit
